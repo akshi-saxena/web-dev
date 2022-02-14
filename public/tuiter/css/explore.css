@@ -1,0 +1,92 @@
+.wd-bg-darkgray {
+    background-color: darkgrey;
+}
+.wd-placeholder-fg-white::placeholder {
+    color: white;
+}
+
+
+.wd-pad-16 {
+    padding: 16px;
+}
+.wd-no-space {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 1px;
+}
+.wd-rounded-corners-half {
+    border-radius: 50px;
+    padding: 20px;
+}
+.wd-rounded-corners-20 {
+    border-radius: 20px;
+}
+
+
+.wd-width-506 {
+    width: 506px;
+}
+.wd-height-36 {
+    height: 36px;
+}
+.wd-100-square {
+    width: 100px;
+    height: 100px;
+}
+.wd-height-12 {
+    height: 12px;
+}
+.wd-width-15 {
+    width: 15px;
+}
+
+
+
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+.wd-helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wd-font-size-xs {
+    font-size: x-small;
+}
+.wd-font-size-s {
+    font-size: small;
+}
+
+
+.wd-active {
+    color: rgb(29,161,242);
+    text-decoration: underline;
+    text-underline-offset: 16px;
+    text-decoration-thickness: 3px;
+}
+
+
+
+.wd-grid-row {
+    clear: both;
+}
+.wd-grid-col-left-70 {
+    width: 70%;
+    float: left;
+}
+.wd-grid-col-right-30 {
+    float: right;
+}

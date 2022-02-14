@@ -278,26 +278,43 @@
         background-color: red;
         color: white;
     }
+
+    .my-media-query {
+        color: goldenrod;
+        font-size: xx-large;
+    }
+    .float-media-query {
+        float: none;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
-    body {
-        background-color: blue;
-        color: white;
-    }
     .media-query {
         background-color: yellow;
         color: black;
     }
+
+    .my-media-query {
+        color: brown;
+        font-size: large;
+    }
+    .float-media-query {
+        float: left;
+        width: 50%;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1800px) {
-    body {
-        background-color: red;
-        color: white;
-    }
     .media-query {
         background-color: blue;
         color: white;
+    }
+    .my-media-query {
+        color: aqua;
+        font-size: small;
+    }
+    .float-media-query {
+        float: left;
+        width: 25%;
     }
 }

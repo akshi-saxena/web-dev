@@ -22,10 +22,6 @@
     border-radius: 20px;
 }
 
-
-.wd-width-506 {
-    width: 506px;
-}
 .wd-height-36 {
     height: 36px;
 }
@@ -90,3 +86,23 @@
 .wd-grid-col-right-30 {
     float: right;
 }
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .wd-media-query {
+        width: 450px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .wd-media-query {
+        width: 800px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .wd-media-query {
+        width: 1250px;
+    }
+}
+

@@ -2,19 +2,64 @@
     color: black;
 }
 
-.wd-fg-color-gray {
-    color: gray;
-}
-
 .wd-fg-color-white {
-    color: white;
+    color: rgb(204, 195, 195);
 }
 
 .wd-img-scale {
     max-width: 100px;
 }
 
-
 .wd-img-scale-min {
     min-width: 44px;
 }
+
+.wd-bg-color-black{
+    background-color: black;
+}
+
+.wd-bg-color-gray {
+    background-color: rgb(51, 57, 61);
+}
+.wd-bg-color-darkgray {
+    background-color: rgb(31, 34, 36);
+}
+
+.wd-fg-color-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-fg-color-lightgray {
+    color: lightgray;
+}
+
+.nav > li > a {
+    color: rgb(110, 118, 125);
+}
+
+.nav > li.active > a {
+    color: lightgray;
+}
+
+
+.wd-li-group > .active {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.wd-tweet-btn > .btn-primary {
+    background-color: rgb(29,161,242);
+}
+
+.wd-follow-btn > .btn-primary {
+    background-color: whitesmoke;
+    color: black;
+    border: 0;
+}
+
+/* .nav > li.active {
+    border: solid;
+    border-color: rgb(29,161,242);
+    border-bottom: 3px;
+} */

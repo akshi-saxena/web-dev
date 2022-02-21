@@ -14,11 +14,15 @@
     max-width: 100px;
 }
 
-.wd-img-overlay {
-    z-index: 0;
+
+.wd-img-scale-min {
+    min-width: 44px;
 }
 
-
-.wd-img-overlay {
+.wd-z-1{
     z-index: 1;
+}
+
+.wd-z-0{
+    z-index: 0;
 }

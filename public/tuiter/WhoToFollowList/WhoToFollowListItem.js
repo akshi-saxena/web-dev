@@ -1,9 +1,9 @@
 const WhoToFollowListItem = (who) => {
     return(`
-        <li class="list-group-item wd-bg-color-darkgray wd-fg-color-white">
+        <li class="list-group-item">
             <div class="row">
                 <div class="col-2">
-                    <img class = "rounded-circle img-fluid wd-img-scale-min" src= ${who.avatarIcon}/>
+                    <img class = "rounded-circle img-fluid" src= ${who.avatarIcon}/>
                 </div>
                 <div class="col-7">
                     <span class="fw-bold text-nowrap">${who.userName} <i class="fas fa-check-circle"></i></span>

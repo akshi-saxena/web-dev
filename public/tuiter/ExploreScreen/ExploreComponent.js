@@ -10,7 +10,7 @@ const ExploreComponent = () => {
                         </form>
                     </div>
                     <div class="col-1 py-2">
-                        <i class="fas fa-cog float-end wd-fg-color-white"></i>
+                        <a class="text-decoration-none"><i class="fas fa-cog float-end wd-fg-color-white"></i></a>
                     </div>
                 </div>
             

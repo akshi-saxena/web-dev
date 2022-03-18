@@ -24,10 +24,11 @@ const FeedPostListItem = ({
                         <p className="text-white">{content.content}</p>
                 <div className="card rounded-3 border-secondary mb-3">
                     <img src= {content.postImage} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h6 className="card-title">{content.image_caption_title}</h6>
-                        <p className="card-text">{content.image_caption}</p>
-                    </div>
+                    {(content.image_caption || content.image_caption_title) ?
+                    <div class="card-body">
+                        <h6 class="card-title">{content.image_caption_title}</h6>
+                        <p class="card-text">{content.image_caption}</p>
+                      </div>: ""}
                 </div>
                 <div className="row p-2">
                         <div className="col">

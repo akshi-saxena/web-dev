@@ -6,7 +6,6 @@ import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
-import Tuiter from "./components/tuiter";
 import HomeScreen from "./components/tuiter/home-screen";
 import ExploreScreen from "./components/tuiter/explore-screen";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
@@ -46,16 +45,15 @@ function App() {
                   <Route path="/"
                          exact={true}
                          element={<Labs/>}/>
+                  <Route path="/labs"
+                         element={<Labs/>}/>
                   <Route path="/tuiter"
                          exact={true}
-                         element={<Tuiter/>}/>
-                  <Route path="/tuiter/home-screen"
-                         exact={true}
                          element={<HomeScreen/>}/>
-                  <Route path="/tuiter/explore-screen"
-                         exact={true}
+                  <Route path="/tuiter/home"
+                         element={<HomeScreen/>}/>
+                  <Route path="/tuiter/explore"
                          element={<ExploreScreen/>}/>
-
               </Routes>
           </div>
       </BrowserRouter>

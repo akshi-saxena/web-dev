@@ -13,10 +13,10 @@ const NavigationSidebar = ({
                     <i className="fab fa-twitter"></i>
                 </Link>
 
-                <Link to="/tuiter/home-screen" className={'list-group-item ${active === "home" ? "active" : ""}'}>
+                <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                             <i className="fas fa-home "></i><span className="p-1 d-none d-lg-inline-block ">Home</span>
                 </Link>
-                <Link to="/tuiter/explore-screen" className={'list-group-item ${active === "explore" ? "active" : ""}'}>
+                <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
                     <i className="fas fa-hashtag "></i><span className="p-1 d-none d-lg-inline-block ">Explore</span>
                 </Link>
                 <a href="#" className="list-group-item ">

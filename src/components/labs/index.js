@@ -13,14 +13,8 @@ const Labs = () => {
             <Link to="/hello">
                 Hello
             </Link> |
-            <Link to="/tuiter/home-screen">
+            <Link to="/tuiter/home">
                 Tuiter
-            </Link> |
-            <Link to="/tuiter/explore-screen">
-                Tuiter Home
-            </Link> |
-            <Link to="/tuiter/home-screen">
-                Tuiter Home
             </Link>
 
             <ConditionalOutput/>

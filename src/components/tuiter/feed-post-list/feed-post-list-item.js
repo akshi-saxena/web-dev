@@ -20,7 +20,7 @@ const FeedPostListItem = ({
             </div>
             <div className="col-10">
                     <span className="fw-bold text-white">{content.userName} <i className="fas fa-check-circle"></i></span>
-                        <span>@{content.handle} &middot {content.time}</span>
+                        <span> @{content.handle} &middot; {content.time}</span>
                         <p className="text-white">{content.content}</p>
                 <div className="card rounded-3 border-secondary mb-3">
                     <img src= {content.postImage} className="card-img-top" alt="..."/>

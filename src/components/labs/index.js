@@ -1,8 +1,9 @@
 import React from "react";
+import ReduxExamples from "./redux-examples";
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
-import Todos from "./todo";
+import Todo from "./todo";
 import {Link} from "react-router-dom";
 
 const Labs = () => {
@@ -17,11 +18,13 @@ const Labs = () => {
                 Tuiter
             </Link>
 
-            <ConditionalOutput/>
-            <Styles/>
-            <Classes/>
+            <ReduxExamples/>
 
-            <Todos/>
+            {/*<ConditionalOutput/>*/}
+            {/*<Styles/>*/}
+            {/*<Classes/>*/}
+
+            {/*<Todo/>*/}
         </>
 
     )

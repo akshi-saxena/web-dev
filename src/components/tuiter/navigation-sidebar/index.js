@@ -9,11 +9,11 @@ const NavigationSidebar = ({
     return(
             <>
             <div className="list-group">
-                <Link to="/" className="list-group-item">
+                <Link to="/labs" className="list-group-item">
                     <i className="fab fa-twitter"></i>
                 </Link>
 
-                <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
+                <Link to="/tuiter" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                             <i className="fas fa-home "></i><span className="p-1 d-none d-lg-inline-block ">Home</span>
                 </Link>
                 <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
@@ -27,8 +27,9 @@ const NavigationSidebar = ({
                     <i className="fas fa-bookmark "></i><span className="p-1 d-none d-lg-inline-block">Bookmarks</span></a>
                 <a href="#" className="list-group-item ">
                     <i className="fas fa-list-ul "></i><span className="p-1 d-none d-lg-inline-block">Lists</span></a>
-                <a href="#" className="list-group-item profile">
-                    <i className="fas fa-user"></i><span className="p-1 d-none d-lg-inline-block">Profile</span></a>
+                <Link to="/tuiter/profile" className="list-group-item profile">
+                    <i className="fas fa-user"></i><span className="p-1 d-none d-lg-inline-block">Profile</span>
+                </Link>
                 <a href="#" className="list-group-item p-0 ">
                     <span className="p-0 fa-stack">
                         <i className="fas fa-circle fa-stack-1x"></i>

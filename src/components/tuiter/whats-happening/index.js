@@ -25,7 +25,7 @@ const WhatsHappening = () => {
                     <textarea value={whatsHappening}
                               onChange={(event) =>
                                   setWhatsHappening(event.target.value)}
-                                placeholder="What's happening?" className="bg-transparent border-top-0 border-end-0 border-start-0">
+                                placeholder="What's happening?" className="bg-transparent text-white border-top-0 border-end-0 border-start-0">
                     </textarea>
                 </div>
                 <div className="row">

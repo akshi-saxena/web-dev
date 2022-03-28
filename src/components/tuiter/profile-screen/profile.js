@@ -48,7 +48,8 @@ const Profile = () => {
         <div className="row">
             <div>
                 <i className="fas fa-arrow-left me-3"></i>
-                <span>{profile.firstName} {profile.lastName}</span>
+                <span className="fs-5 text-white">{profile.firstName} {profile.lastName}</span>
+                <p className="ms-1 ps-4 fs-light">5196 Tweets</p>
             </div>
             <div className="row position-relative">
                 <img src={profile.bannerPicture} width="100%" height="200px"/>

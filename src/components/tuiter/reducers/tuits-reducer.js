@@ -26,13 +26,16 @@ const tuitsReducer =
         tuit: action.tuit,
         _id: (new Date()).getTime() + '',
         postedBy: {
-          "username": "ReactJS"
+          "username": "Hinata Shoyo"
         },
+        "handle": "hinata",
         stats: {
           retuits: 111,
           likes: 222,
           replies: 333
-        }
+        },
+        "time": "now",
+        "avatar-image": "../../../images/profilepic.jpeg"
       }
       return [
         newTuit,

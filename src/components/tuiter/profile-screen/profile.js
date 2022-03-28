@@ -50,19 +50,19 @@ const Profile = () => {
                 <i className="fas fa-arrow-left me-3"></i>
                 <span>{profile.firstName} {profile.lastName}</span>
             </div>
-            <div className="row">
+            <div className="row position-relative">
                 <img src={profile.bannerPicture} width="100%" height="200px"/>
-                <div className="col-2">
+                <div className="col-3 position-absolute bottom-0 ms-5">
                         <img className = "rounded-circle img-fluid" src= {profile.profilePicture}/>
                 </div>
-                <div className="col-10">
+                <div className="mt-2">
                     <button className="btn btn-primary btn-block rounded-pill float-end" onClick={editClickHandler}>
                         Edit Profile
                     </button>
                 </div>
             </div>
-            <div className="row">
-                <h5>{profile.firstName} {profile.lastName}</h5>
+            <div className="row mt-3">
+                <h5 className="mb-0">{profile.firstName} {profile.lastName}</h5>
                 <p>@ {profile.handle}</p>
                 <a href={`http://www.${profile.website}`}>{profile.website}</a>
                 <p>{profile.bio}</p>
@@ -91,13 +91,13 @@ const Profile = () => {
                 Save
             </button>
         </div>
-        <div className="row">
+        <div className="row position-relative">
             <img src={profile.bannerPicture} width="100%" height="200px"/>
-            <div className="col-2">
-                    <img className = "rounded-circle img-fluid" src= {profile.profilePicture}/>
+            <div className="col-3 position-absolute top-50 ms-5">
+                        <img className = "rounded-circle img-fluid" src= {profile.profilePicture}/>
             </div>
         </div>
-        <div className="row p-2 ">
+        <div className="row mt-4 py-2">
             <label htmlFor="name">Name</label>
             <textarea id ="name" value={`${fname} ${lname}`}
                         onChange={(event) =>
@@ -107,7 +107,7 @@ const Profile = () => {
                         placeholder="Name" className="bg-transparent text-white">
             </textarea>
         </div>
-        <div className="row p-2 ">
+        <div className="row py-2 ">
             <label htmlFor="bio">Bio</label>
             <textarea id="bio" value={bio}
                         onChange={(event) =>
@@ -115,7 +115,7 @@ const Profile = () => {
                         placeholder="Bio" className="bg-transparent text-white">
             </textarea>
         </div>
-        <div className="row p-2 ">
+        <div className="row py-2 ">
             <label htmlFor="loc">Location</label>
             <textarea id="loc" value={location}
                         onChange={(event) =>
@@ -124,7 +124,7 @@ const Profile = () => {
             </textarea>
             
         </div>
-        <div className="row p-2 ">
+        <div className="row py-2 ">
             <label htmlFor="web">Website</label>
             <textarea id="web" value={website}
                         onChange={(event) =>
@@ -132,7 +132,7 @@ const Profile = () => {
                         placeholder="Website" className="bg-transparent text-white">
             </textarea>
         </div>
-        <div className="row p-2 ">
+        <div className="row py-2 ">
             <label htmlFor="web">Date of Birth</label>
             <input id="web" value={date} type="date"
                         onChange={(event) =>

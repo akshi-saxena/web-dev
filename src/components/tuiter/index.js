@@ -5,6 +5,7 @@ import whoReducer from "./reducers/who-reducer";
 import profileReducer from "./reducers/profile-reducer";
 import {createStore, combineReducers} from "redux";
 import {Provider} from "react-redux";
+import { useLocation } from 'react-router-dom';
 
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
@@ -13,11 +14,14 @@ const reducer = combineReducers({tuits: tuitsReducer, who: whoReducer, profile: 
 const store = createStore(reducer);
 
 const Tuiter = () => {
+
+    const location = useLocation();
+
   return (
     <Provider store={store}>
         <div className="row mt-2">
             <div className="col-2 col-lg-1 col-xl-2">
-                <NavigationSidebar/>
+                <NavigationSidebar active = {location.pathname}/>
             </div>
             <div className="col-10 col-lg-7 col-xl-6">
                 <Outlet/>

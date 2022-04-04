@@ -14,7 +14,7 @@
       "video": "unKvMC3Y1kI"
     },
     "logo-image": "../../../images/tile-img-react.jpeg",
-    "avatar-image": "../../../images/tile-img-react.jpeg",
+    "avatarImage": "../../../images/tile-img-react.jpeg",
     "stats": {
       "comments": 123,
       "retuits": 234,
@@ -39,7 +39,7 @@
     },
     "time": "last month",
     "logo-image": "../../../images/tile-img-node.jpeg",
-    "avatar-image": "../../../images/tile-img-node.jpeg",
+    "avatarImage": "../../../images/tile-img-node.jpeg",
     "tuits": "120K",
     "stats": {
       "comments": 123,
@@ -64,7 +64,7 @@
     "title": "JavaScript is programming language that can run on browsers as well as desktops",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "logo-image": "../../../images/tile-img-js.png",
-    "avatar-image": "../../../images/tile-img-js.png",
+    "avatarImage": "../../../images/tile-img-js.png",
     "tuits": "123K",
     "stats": {
       "comments": 123,
@@ -88,7 +88,7 @@
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last week",
     "logo-image": "../../../images/tile-img-jq.png",
-    "avatar-image": "../../../images/tile-img-jq.png",
+    "avatarImage": "../../../images/tile-img-jq.png",
     "tuits": "122K",
     "stats": {
       "comments": 123,
@@ -111,7 +111,7 @@
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last month",
     "logo-image": "../../../images/tile-img-node.jpeg",
-    "avatar-image": "../../../images/tile-img-node.jpeg",
+    "avatarImage": "../../../images/tile-img-node.jpeg",
     "tuits": "120K",
     "stats": {
       "comments": 123,
